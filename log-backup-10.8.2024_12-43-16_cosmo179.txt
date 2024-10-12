@@ -1,0 +1,488 @@
+--------------------------------------------------------
+[2024-10-08 12:43:16 -0300] pkgacct started.
+[2024-10-08 12:43:16 -0300] pkgacct version 10 - user : cosmo179 - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 0 - archive version: 4 - running with uid 0
+[2024-10-08 12:43:16 -0300] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 128 --rsyncable' to compress archives
+[2024-10-08 12:43:16 -0300] pkgacct working dir : /home1/823696.BIN_ADMIN_CPANEL_BACKUP_PL__.11f27800.tmp/backup-10.8.2024_12-43-16_cosmo179
+QUOTAS HAVE BEEN VERIFIED.  YOUR DATA IS NOW BEING BACKED UP!
+        block_curr	1321280
+        block_soft	104857600
+        block_hard	104857600
+        block_timelimit	0
+        inode_curr	13121
+        inode_soft	0
+        inode_hard	0
+        inode_timelimit	0
+[2024-10-08 12:43:16 -0300] Copying Reseller Config...[2024-10-08 12:43:16 -0300] Done
+[2024-10-08 12:43:16 -0300] Copying Suspension Info (if needed)...[2024-10-08 12:43:16 -0300] Done
+[2024-10-08 12:43:16 -0300] Copying Team Info (if needed)...[2024-10-08 12:43:16 -0300] Done
+[2024-10-08 12:43:16 -0300] Copying installed SSL certificates and keys...[2024-10-08 12:43:16 -0300] Performing “ApacheTLS” component....
+[2024-10-08 12:43:16 -0300] Completed “ApacheTLS” component.
+[2024-10-08 12:43:16 -0300] Done
+[2024-10-08 12:43:16 -0300] Copying DKIM keys....[2024-10-08 12:43:16 -0300] Done
+[2024-10-08 12:43:16 -0300] Copying Bandwidth Data....[2024-10-08 12:43:16 -0300] Performing “Bandwidth” component....
+Summary databases … done!
+[2024-10-08 12:43:16 -0300] Completed “Bandwidth” component.
+[2024-10-08 12:43:16 -0300] Done
+[2024-10-08 12:43:16 -0300] Copying Dns Zones.......cosmosfit.com.br...[2024-10-08 12:43:16 -0300] Done
+[2024-10-08 12:43:16 -0300] Copying Mail files....[2024-10-08 12:43:16 -0300] Performing “MailConfig” component....
+[2024-10-08 12:43:16 -0300] Completed “MailConfig” component.
+[2024-10-08 12:43:16 -0300] Done
+[2024-10-08 12:43:16 -0300] Copying proftpd file....[2024-10-08 12:43:16 -0300] Done
+[2024-10-08 12:43:16 -0300] Performing “Logs” component....
+...log file sizes [175163 byte(s)]......cosmosfit.com.br-bytes_log......cosmosfit.com.br-ssl_log......cosmosfit.com.br...[2024-10-08 12:43:16 -0300] Completed “Logs” component.
+[2024-10-08 12:43:16 -0300] Copy userdata...[2024-10-08 12:43:16 -0300] Done
+[2024-10-08 12:43:16 -0300] Copy custom virtualhost templates...[2024-10-08 12:43:16 -0300] Done
+[2024-10-08 12:43:16 -0300] Copying mailman lists and archives....Done copying mailman lists and archives.
+[2024-10-08 12:43:16 -0300] Copying homedir.............
+[2024-10-08 12:43:16 -0300] Done
+[2024-10-08 12:43:16 -0300] Fixing up EA4 .htaccess blocks: /home1/cosmo179/public_html/.htaccess  Done.
+[2024-10-08 12:43:16 -0300] Performing “Postgresql” component....
+[2024-10-08 12:43:16 -0300] Completed “Postgresql” component.
+[2024-10-08 12:43:16 -0300] Performing “Mysql” component....
+Load watching suspended due to SIGUSR1
+[2024-10-08 12:43:16 -0300] Determining mysql dbs...[2024-10-08 12:43:17 -0300] ...mysqldump version: 5.7.23...[2024-10-08 12:43:17 -0300] ...mysql version: 5.7...[2024-10-08 12:43:17 -0300] Saving mysql privs...[2024-10-08 12:43:17 -0300] Done
+[2024-10-08 12:43:17 -0300] Saving mysql authentication information...[2024-10-08 12:43:17 -0300] Done
+[2024-10-08 12:43:17 -0300] Storing MySQL databases...[2024-10-08 12:43:17 -0300] Storing database cosmo179_wp230
+[2024-10-08 12:43:21 -0300] Done
+[2024-10-08 12:43:21 -0300] ...Done
+[2024-10-08 12:43:21 -0300] ...Done
+[2024-10-08 12:43:21 -0300] Completed “Mysql” component.
+[2024-10-08 12:43:21 -0300] Performing “MysqlRemoteNotes” component....
+Load watching resumed due to SIGUSR2
+[2024-10-08 12:43:21 -0300] Completed “MysqlRemoteNotes” component.
+[2024-10-08 12:43:21 -0300] Performing “CpUserFile” component....
+[2024-10-08 12:43:21 -0300] Completed “CpUserFile” component.
+[2024-10-08 12:43:21 -0300] Performing “Cron” component....
+[2024-10-08 12:43:21 -0300] No readable crontab file found.
+[2024-10-08 12:43:21 -0300] Completed “Cron” component.
+[2024-10-08 12:43:21 -0300] Performing “Quota” component....
+[2024-10-08 12:43:21 -0300] Completed “Quota” component.
+[2024-10-08 12:43:21 -0300] Performing “Integration” component....
+[2024-10-08 12:43:21 -0300] Completed “Integration” component.
+[2024-10-08 12:43:21 -0300] Performing “AuthnLinks” component....
+[2024-10-08 12:43:21 -0300] Completed “AuthnLinks” component.
+[2024-10-08 12:43:21 -0300] Performing “APITokens” component....
+[2024-10-08 12:43:21 -0300] Completed “APITokens” component.
+[2024-10-08 12:43:21 -0300] Performing “DNSSEC” component....
+[2024-10-08 12:43:21 -0300] Completed “DNSSEC” component.
+[2024-10-08 12:43:21 -0300] Performing “Custom” component....
+[2024-10-08 12:43:21 -0300] No custom components to perform.
+[2024-10-08 12:43:21 -0300] Completed “Custom” component.
+[2024-10-08 12:43:21 -0300] Performing “AutoSSL” component....
+[2024-10-08 12:43:21 -0300] Completed “AutoSSL” component.
+[2024-10-08 12:43:21 -0300] Storing Subdomains....
+[2024-10-08 12:43:21 -0300] Done
+[2024-10-08 12:43:21 -0300] Storing Parked Domains....
+[2024-10-08 12:43:21 -0300] Done
+[2024-10-08 12:43:21 -0300] Storing Addon Domains....
+[2024-10-08 12:43:21 -0300] Performing “Password” component....
+[2024-10-08 12:43:21 -0300] Completed “Password” component.
+[2024-10-08 12:43:21 -0300] Performing “DigestShadow” component....
+[2024-10-08 12:43:21 -0300] Completed “DigestShadow” component.
+[2024-10-08 12:43:21 -0300] Copying shell.......[2024-10-08 12:43:21 -0300] Done
+[2024-10-08 12:43:21 -0300] Copying locale ...Possible ambiguous use of trailing variable in output,url: [output,url,_2,Site Software,id,site-software,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,WordPress administration interface,id,upgrade-wordpress,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,reload,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,try login again in a few minutes,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,How to Authenticate Your Server,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,spamassassin.apache.org,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,EasyApache,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Learn more here.,title,cPanel Analytics Documentation,class,_2,target,_3,id,_4,data-testid,_5]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,CageFS Documentation,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Manage Shell Access,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,We Live Security,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,We Live Security,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,We Live Security,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,We Live Security More Information,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,We Live Security,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Determine your Systems Status,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Determine your System Status,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,this secure link,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Password Strength Configuration,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Password Strength Configuration,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Password Strength Configuration,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,CageFS on CloudLinux,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,We Live Security,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,We Live Security,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel~, Inc.,title,cPanel Website,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel~, L.L.C.,title,cPanel Website,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,list databases,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation on cPanel chr(38) WHM Versions and the Release Process,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,SSH Password Authorization Tweak,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Tweak Settings,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,brief survey,class,externalLink,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Access cPanel Webmail,title,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Access cPanel,title,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,How to Authenticate Your Server,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,How to Authenticate Your Server,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,CLDR,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,SMTP Restrictions,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPHulk Brute Force Protection,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Configure PHP and suEXEC,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,MySQL database service,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Tweak Settings,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Exim Configuration Manager,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,EasyApache 4,_5,_6]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,Tweak Settings,_5,_6]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,Manage Shell Access,_5,_6]
+Possible ambiguous use of trailing variable in output,url: [output,url,_4,CageFS on CloudLinux,_5,_6]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,DNSadmin,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,FileZilla,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Imunify360’s documentation,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,File Restoration,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,How to Manage Metadata Settings,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,click here,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,click here,ng-click,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,click here,ng-click,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,our documentation,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,here,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,our documentation,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,WordPress Toolkit,title,WordPress Toolkit,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,email your provider,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,MySQL 5.6 and MariaDB 10.1 End of Life,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,class,externalLink,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,documentation,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Backup Configuration,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Grant cPanel Support Access,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation on cPanel chr(38) WHM Versions and the Release Process,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,class,external-link,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel Deprecation Plan documentation,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,feature documentation,class,externalLink,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Choose Log Programs,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel Support,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,live transfer,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,unsuspend the account,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel Store,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_4,request a trial license,target,_5]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel Store,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,live transfer ,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Enable Digest Authentication,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Enable Digest Authentication,onclick,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Enable Digest Authentication,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Enable Digest Authentication,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Installer,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,File Manager,target,_blank,class,ajaxfiles,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,contact our support team,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPUser Port Authority,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Uninstall ClamAV,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,How to Change Your Default Theme in cPanel,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel DNSONLY,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel DNSONLY,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Manage Plugins,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1, NGINX reverse proxy with caching,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,blog post,title,Welcome to Jupiter blog post,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Symlink Race Condition Protection,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Symlink Race Condition Protection,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,FQDN,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,FQDN,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Restart SSH,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,class,externalLink,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Configure PHP and suEXEC,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,DNS Clustering Quick-Start Guide,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,EasyApache,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Service Migration Tool,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,please click here to continue,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Rebuild RPM Database,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Rebuild RPM Database,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,_3,target,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Grant cPanel Support Access,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,cPanel Customer Portal,target,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,cPanel Customer Portal,target,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,cPanel Customer Portal,target,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,download the plugin,target,blank,title,_1]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,click here,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,How to Authenticate Your Server,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,How to Authenticate Your Server,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Try Again,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Try Again,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Try Again,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Restart SSH Server,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel Blog,title,cPanel Blog,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,here,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,RFC 3597,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,File Manager,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Default Address,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_4,cPanel Customer Portal,target,_5]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,cPanel Customer Portal,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,CageFS Documentation,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_4,Symlink Race Condition Protection,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,How to Authenticate Your Server,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,How to Authenticate Your Server,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel Support,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,Invalid and Misconfigured Usernames,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,Invalid and Misconfigured Usernames,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,Invalid and Misconfigured Usernames,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,Invalid and Misconfigured Usernames,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,id,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Edit a Package,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Edit a Package,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,documentation,id,_4,target,_5]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,RFC 1035,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,List Accounts,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,File Manager,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,deprecated nameserver software,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,cPanel Customer Portal,target,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,click here,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_4,_5,id,_6]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Develop a Style,target,style,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Fixup Piped Program,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Guide to cPanel Interface Customization,target,style,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Manage Service SSL Certificates,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,http://verify.cpanel.net/,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Transfer Tool,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,documentation,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel Store,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,documentation,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,https://go.cpanel.net/upgrade_os,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Imunify360 Documentation,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,configure a contact email address,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,supported phone app,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,CloudLinux - Mod_lsapi Feature,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Configure PHP and suEXEC,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Update System Software,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,reboot the system,_3,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Update Preferences,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,documentation,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Modify an Account,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,File Manager,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,MySQL,id,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_5,PostgreSQL,id,_6]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,File Manager,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,MySQL,id,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Manage Wheel Group Users,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,unlimited,class,action_link,onclick,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,MySQL/MariaDB Upgrade interface,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel DNSONLY,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel DNSONLY,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,class,externalLink,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,documentation,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,PHP,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Learn more about supported versions,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,MultiPHP Manager,_4,_5]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,EasyApache 4,_4,_5]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel and WHM Privacy Policy,title,cPanel and WHM Privacy Policy,data-testid,_2,target,_3,class,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,target,_2,hashbang,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel Customer Portal,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,_3,target,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,release notes,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,CageFS,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_4,suggestions,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Disable,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Enable,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Disable,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Enable,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Manage Root’s SSH Keys,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_3,_4,_5]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,PuTTY,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,PuTTy,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_4,Partners,target,_2,id,_5]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,MySQL Root Password,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Update Preferences,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,remote API,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation about release tiers and updates,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,the documentation,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,the list of email accounts,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,_3,target,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_3,_3,target,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,html,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_2,target,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,supported version,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,target,_3,id,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Service Transfer Tool,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,SecureLinks,_2,_3]
+The number of arguments to quant (1 in [numerate,_3,records have]) is incorrect (should be 2 for pt_br).
+The number of arguments to quant (1 in [numerate,_3,values]) is incorrect (should be 2 for pt_br).
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,documentation,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Uninstall ClamAV,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Service Manager page,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_4,cPanel Customer Portal,target,_5]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_3,_5,_6]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_4,_5,_6]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel DNSONLY,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,How to Manually Remove the cPanel-Provided Hardened Kernel,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Find out more about Interface Analytics.,target,_2,class,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Find out more about Interface Analytics.,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,/scripts/modify_accounts,target,_blank,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,cPanel Customer Portal,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,deprecated,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Hardened PHP versions on CloudLinux,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Add KernelCare’s Free Symlink Protection,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Click to install,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,EasyApache3,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Get Imunify360,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Get Imunify360,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Get ImunifyAV+,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Get KernelCare,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Go back one page,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Go back,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Go to the Domains interface,title,Go to the Domains interface,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Install Imunify360,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Install ImunifyAV+,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Install ImunifyAV,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Learn more about ImunifyAV+,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Open Imunify360,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Reboot the server,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Reboot the server,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Reboot the system,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Upgrade to KernelCare,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_1,target,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,_2,target,_blank,id,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,https://go.cpanel.net/device-setup-survey,Take our survey,target,_1,class,externalLink,id,_2]
+Possible ambiguous use of trailing variable in output,url: [output,url,_1,Symlink Race Condition Protection,_2,_3]
+Possible ambiguous use of trailing variable in output,url: [output,url,_2,_3,target,_4]
+Possible ambiguous use of trailing variable in output,url: [output,url,_5,cPanel Customer Portal,target,_6]
+[2024-10-08 12:43:28 -0300] Done
+[2024-10-08 12:43:28 -0300] Performing “WebCalls” component....
+[2024-10-08 12:43:28 -0300] Completed “WebCalls” component.
+[2024-10-08 12:43:28 -0300] Performing “BrandCustomizations” component....
+[2024-10-08 12:43:28 -0300] Completed “BrandCustomizations” component.
+[2024-10-08 12:43:28 -0300] Performing “PublicContact” component....
+[2024-10-08 12:43:28 -0300] Completed “PublicContact” component.
+[2024-10-08 12:43:28 -0300] Performing “MailLimits” component....
+[2024-10-08 12:43:28 -0300] Completed “MailLimits” component.
+[2024-10-08 12:43:28 -0300] Performing “LinkedNodes” component....
+[2024-10-08 12:43:28 -0300] Completed “LinkedNodes” component.
+[2024-10-08 12:43:28 -0300] Creating Archive ......................................................
+[2024-10-08 12:45:04 -0300] 
+[2024-10-08 12:45:04 -0300] One or more files in the home directory were not readable and were not copied.  Please review the home directory upon completion of transfer
+[2024-10-08 12:45:04 -0300] WARN: Warning(s) encountered in tar during archiving:
+[2024-10-08 12:45:04 -0300] /home1/cosmo179/cosmo179_wp230.1724954660.sql.gz: Cannot open file: Permission denied at bin/pkgacct.pl line 1446.[2024-10-08 12:45:04 -0300] Done
+[2024-10-08 12:45:04 -0300] pkgacctfile is: /home1/823696.BIN_ADMIN_CPANEL_BACKUP_PL__.11f27800.tmp/backup-10.8.2024_12-43-16_cosmo179.tar.gz
+[2024-10-08 12:45:07 -0300] md5sum is: a4d88e66cb11c59ee1649c24363b2965
+[2024-10-08 12:45:07 -0300] 
+[2024-10-08 12:45:07 -0300] size is: 946921395
+[2024-10-08 12:45:07 -0300] 
+[2024-10-08 12:45:07 -0300] homesize is: 1353048064
+[2024-10-08 12:45:07 -0300] 
+[2024-10-08 12:45:07 -0300] homefiles is: 13125
+[2024-10-08 12:45:07 -0300] 
+[2024-10-08 12:45:07 -0300] mysqlsize is: 102631305
+[2024-10-08 12:45:07 -0300] pkgacct completed
+pkgacctfile is: /home1/cosmo179/backup-10.8.2024_12-43-16_cosmo179.tar.gz
+--------------------------------------------------------
